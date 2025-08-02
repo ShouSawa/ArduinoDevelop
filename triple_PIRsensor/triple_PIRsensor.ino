@@ -35,5 +35,6 @@ void loop() {
   Serial.println("circuit No.2 : " + String(buf2) + " , " + String(voltA1, 7) + "[V]");
   Serial.println("circuit No.3 : " + String(buf3) + " , " + String(voltA2, 7) + "[V]");
 
+
   delay(100);  // 合計1ms = 1kHz
 }
